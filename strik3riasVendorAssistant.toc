@@ -13,4 +13,4 @@
 
 localization.lua
 settings.lua
-kSellGreyNRepair.lua
+strik3riasVendorAssistant.lua
