@@ -39,8 +39,8 @@ local function ToggleGuildRepairs()
     end
 end
 
-SLASH_ASGRE1 = "/asgre"
-SlashCmdList["ASGRE"] = function(msg)
+SLASH_SVA1 = "/sva"
+SlashCmdList["SVA"] = function(msg)
     if string.len(msg) > 0 then
         -- '/asgre guild' will enable or disable guild repairs depending on current
         -- state
