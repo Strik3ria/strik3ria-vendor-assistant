@@ -1,7 +1,11 @@
 --[[
-Name: Auto Sell Grey & Repair
+Name: Strik3ria's Vendor Assistant
 Description: Sells grey items and repairs your items using guild funds if possible
 
+I honestly have no clue what I am supposed to do with the license but this coder
+below in the copywrite is the one who wrote the original functionality, I just added some stuff
+to make it a little more customizable and to default to not using guild repairs.
+But this is the real hero. - Strik3ria
 Copyright 2017 Mateusz Kasprzak
 
 Licensed under the Apache License, Version 2.0 (the "License");

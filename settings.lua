@@ -15,7 +15,7 @@ local function Usage()
 end
 
 local settingsPanel = CreateFrame("Frame")
-settingsPanel.name = "Auto Sell Grey & Repair"
+settingsPanel.name = "Strik3ria's Vendor Assistant"
 InterfaceOptions_AddCategory(settingsPanel)
 
 local title = settingsPanel:CreateFontString("ARTWORK", nil, "GameFontNormalLarge")
