@@ -1,0 +1,16 @@
+## Interface: 100002
+## Title: Auto Sell Grey & Repair
+## Notes: Sells grey items and repairs your items using guild funds if possible
+## Author: Mateusz Kasprzak
+## Version: 1.4
+
+## X-License: Apache 2.0
+## X-Category: Miscellaneous
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
+## SavedVariablesPerCharacter: useGuildFunds
+
+localization.lua
+settings.lua
+kSellGreyNRepair.lua
