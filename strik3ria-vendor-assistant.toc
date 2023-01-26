@@ -1,4 +1,4 @@
-## Interface: 100002
+## Interface: 100005
 ## Title: Strik3ria's Vendor Assistant
 ## Notes: Sells grey items and repairs your items using guild funds if possible
 ## Author: Mateusz Kasprzak
