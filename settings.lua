@@ -58,5 +58,10 @@ SlashCmdList["SVA"] = function(msg)
     end
 end
 
+SLASH_RL1 = "/rl"
+SlashCmdList["RL"] = function(msg)
+    C_UI.Reload()
+end
+
 guildRepairCheckButton:SetScript("OnClick", ToggleGuildRepairs)
 panel.checkbutton = guildRepairCheckButton
