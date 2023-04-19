@@ -31,6 +31,7 @@ local function OnEvent(self, event)
             useGuildFunds = false
         end
         panel.checkbutton:SetChecked(useGuildFunds)
+        PlayerCastingBarFrame:UnregisterAllEvents()
     elseif event == "MERCHANT_SHOW" then
         -- Auto Sell Grey Items
         totalPrice = 0
