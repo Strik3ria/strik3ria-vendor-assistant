@@ -14,9 +14,10 @@ local function Usage()
     DEFAULT_CHAT_FRAME:AddMessage(localization.usage[localization.locale], 255, 255, 255)
 end
 
-local settingsPanel = CreateFrame("Frame")
+local settingsPanel = CreateFrame("Frame", "Strik3ria_MainMenu")
 settingsPanel.name = "Strik3ria's Vendor Assistant"
-InterfaceOptions_AddCategory(settingsPanel)
+local category, layout = Settings.RegisterCanvasLayoutCategory(settingsPanel, settingsPanel.name)
+Settings.RegisterCategory(category)
 
 local title = settingsPanel:CreateFontString("ARTWORK", nil, "GameFontNormalLarge")
 title:SetPoint("TOP")
