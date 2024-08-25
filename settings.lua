@@ -64,5 +64,10 @@ SlashCmdList["RL"] = function(msg)
     C_UI.Reload()
 end
 
+local sortButton = CreateFrame("Button", "SortBagsActionButton", UIParent, "SecureActionButtonTemplate")
+sortButton:SetScript("OnClick", function ()
+    C_Container.SortBags()
+end)
+
 guildRepairCheckButton:SetScript("OnClick", ToggleGuildRepairs)
 panel.checkbutton = guildRepairCheckButton
