@@ -32,6 +32,7 @@ local function OnEvent(self, event)
         end
         panel.checkbutton:SetChecked(useGuildFunds)
         PlayerCastingBarFrame:UnregisterAllEvents()
+        SetBinding("ALT-S", "CLICK SortBagsActionButton:LeftButton")
     elseif event == "MERCHANT_SHOW" then
         -- Auto Sell Grey Items
         totalPrice = 0
@@ -83,7 +84,6 @@ local function OnEvent(self, event)
         end
     end
 end
-
 
 local f = CreateFrame("Frame")
 f:SetScript("OnEvent", OnEvent);
