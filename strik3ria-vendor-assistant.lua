@@ -30,9 +30,14 @@ local function OnEvent(self, event)
         if useGuildFunds == nil then
             useGuildFunds = false
         end
+
+        if GetBindingKey("CLICK SortBagsActionButton:LeftButton") == nil then
+            SetBinding("ALT-S", "CLICK SortBagsActionButton:LeftButton")
+        end
+
         panel.checkbutton:SetChecked(useGuildFunds)
         PlayerCastingBarFrame:UnregisterAllEvents()
-        SetBinding("ALT-S", "CLICK SortBagsActionButton:LeftButton")
+
     elseif event == "MERCHANT_SHOW" then
         -- Auto Sell Grey Items
         totalPrice = 0
